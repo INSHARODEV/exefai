@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 5% 14%; /* #202326 */
+    --foreground: 0 0% 93%; /* #EEEEEE */
+
+    --card: 0 0% 100% / 0.04;
+    --card-foreground: 0 0% 93%;
+
+    --popover: 210 5% 14%;
+    --popover-foreground: 0 0% 93%;
+
+    --primary: 181 33% 44%; /* #4D9192 */
+    --primary-foreground: 0 0% 93%;
+
+    --secondary: 200 11% 65%; /* #98ABB2 */
+    --secondary-foreground: 0 0% 93%;
+
+    --muted: 210 5% 20%;
+    --muted-foreground: 200 11% 65%;
+
+    --accent: 181 33% 44%;
+    --accent-foreground: 0 0% 93%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 93% / 0.1;
+    --input: 0 0% 93% / 0.2;
+    --ring: 181 33% 44%;
+
+    --radius: 0.5rem;
+
+    --gradient-start: 180 87% 74%; /* #82F6F7 */
+    --gradient-end: 181 33% 44%;   /* #4D9192 */
+  }
+
+  .dark {
+    --background: 210 5% 14%;
+    --foreground: 0 0% 93%;
+    --card: 0 0% 100% / 0.04;
+    --card-foreground: 0 0% 93%;
+    --popover: 210 5% 14%;
+    --popover-foreground: 0 0% 93%;
+    --primary: 181 33% 44%;
+    --primary-foreground: 0 0% 93%;
+    --secondary: 200 11% 65%;
+    --secondary-foreground: 0 0% 93%;
+    --muted: 210 5% 20%;
+    --muted-foreground: 200 11% 65%;
+    --accent: 181 33% 44%;
+    --accent-foreground: 0 0% 93%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 93% / 0.1;
+    --input: 0 0% 93% / 0.2;
+    --ring: 181 33% 44%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  ::selection {
+    @apply bg-primary/80 text-primary-foreground;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-gradient-start to-gradient-end bg-clip-text text-transparent;
+  }
+  .glass-surface {
+    background-color: hsla(var(--card));
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "what": "What",
+    "agents": "Agents",
+    "build": "Build",
+    "process": "Process",
+    "philosophy": "Philosophy",
+    "cta": "Design an agent with us",
+    "home": "Home",
+    "toggle_language": "Toggle Language",
+    "open_menu": "Open Menu",
+    "close_menu": "Close Menu"
+  },
+  "hero": {
+    "headline": "AI agents for the work humans shouldn’t be doing",
+    "subheading": "We design, build, and run specialized AI agents for Saudi and global businesses—starting with payroll, collections, and healthcare visibility, and extending to any workflow where a digital teammate can do the job better.",
+    "cta": {
+      "primary": "Design an agent with us",
+      "secondary": "Learn more"
+    },
+    "microcopy": "A studio for custom and off-the-shelf AI agents—built on your data, your systems, and your rules."
+  },
+  "what": {
+    "title": "A studio for building AI teammates, not just tools",
+    "copy": "Most software gives you more dashboards. .exefai gives you agents—digital teammates that own an outcome: payroll filed, invoices collected, patients acquired, reports generated.",
+    "cta": "Explore what an agent can do",
+    "bullet1": "Each agent is specialized for one problem.",
+    "bullet2": "Agents plug into your existing systems and data.",
+    "bullet3": "You can start with our ready-made agents or design your own."
+  },
+  "agents": {
+    "title": "Start fast with proven agents",
+    "cta": "Learn more",
+    "result_prefix": "Result",
+    "microcopy": "These are just three examples. The same agent pattern can be applied to operations, finance, sales, support, and more.",
+    "ameen": {
+      "name": "Ameen",
+      "role": "Payroll Agent",
+      "description": "Protects Saudi payroll from errors, penalties, and portal chaos.",
+      "point1": "Connects to your HR system, validates against Qiwa, ZATCA, GOSI, Mudad, and files with a full audit trail.",
+      "point2": "Result: 40+ hours/month saved, far fewer errors, calm payroll cycles."
+    },
+    "mueen": {
+      "name": "Mueen",
+      "role": "Collections Agent",
+      "description": "A digital collections teammate who never forgets a follow-up and talks to customers in Arabic at scale.",
+      "point1": "Scores accounts, runs personalized outreach, resolves simple cases, and routes complex ones to your team with context.",
+      "point2": "Result: More payments, faster cash, less manual chasing."
+    },
+    "hadi": {
+      "name": "Hadi",
+      "role": "ChatGPT Visibility Agent for Healthcare",
+      "description": "Makes your hospital, clinic, or telehealth brand visible inside AI answers.",
+      "point1": "Audits your online presence, optimizes for AI understanding, and monitors how often AI recommends you.",
+      "point2": "Result: 150–300 extra patient inquiries per month, 10–21 day payback."
+    }
+  },
+  "build": {
+    "title": "or design a custom agent for your workflow",
+    "intro": "If you can describe the work in steps, we can design an agent to own it from start to finish.",
+    "left_title": "Where agents work best",
+    "left_list": {
+      "item1": "Repetitive, rules-based workflows",
+      "item2": "Cross-system tasks",
+      "item3": "Monitoring and alerting",
+      "item4": "Research and summarization"
+    },
+    "right_title": "Examples we can build",
+    "right_list": {
+      "item1": "Vendor onboarding agent",
+      "item2": "Marketing ops / reporting agent",
+      "item3": "Sales follow-up agent",
+      "item4": "Compliance documentation agent",
+      "item5": "Internal IT support agent"
+    }
+  },
+  "process": {
+    "title": "Our agent design process",
+    "step1": {
+      "title": "Define the outcome",
+      "desc": "What should the agent own? “Payroll fully filed,” “DSO reduced,” “X patients per month,” “Monthly board report ready,” etc."
+    },
+    "step2": {
+      "title": "Map the workflow",
+      "desc": "We break down the current steps, systems, roles, and edge cases."
+    },
+    "step3": {
+      "title": "Build & integrate",
+      "desc": "We design the agent’s brain (logic, prompts, tools, integrations) and connect it to your stack."
+    },
+    "step4": {
+      "title": "Run & improve",
+      "desc": "We monitor performance, handle edge cases, and refine the agent based on real usage."
+    }
+  },
+  "philosophy": {
+    "title": "Many small agents beat one giant “AI”",
+    "copy": "Instead of one huge model trying to do everything, .exefai follows a multi-agent philosophy: multiple specialized agents that each own one job and collaborate when needed.",
+    "benefits_title": "Benefits:",
+    "benefits": {
+      "item1": "Clear ownership: each agent has a KPI, not just “intelligence.”",
+      "item2": "Safer: easier to test, monitor, and govern when each agent has a narrow scope.",
+      "item3": "Easier to adopt: teams can start with one agent and add more over time."
+    }
+  },
+  "footer": {
+    "copyright": ".exefai. All rights reserved.",
+    "explore": "Explore",
+    "connect": "Connect",
+    "privacy": "Privacy Policy",
+    "contact": "Contact"
+  }
+}
