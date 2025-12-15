@@ -5,7 +5,7 @@ export function ExefaiLogo({ className }: { className?: string }) {
   return (
     <div className={cn("relative", className)}>
        <Image
-        src="/logo.png"
+        src="/logoo.png"
         alt=".exefai logo"
         fill
         className="object-contain"
